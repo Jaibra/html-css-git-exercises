@@ -2,9 +2,62 @@
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
 body {
-    font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
+
+       
+
+.logo {
+float: left;
+}
+
+.links li{
+    float: right;
+    padding-right: 0px;
+    border-right: 1px solid red;
+    margin-bottom: 100px;
+    padding: 40px;
+    background-color: salmon;
+}
+
+.links {
+    display: inline;
+}
+
+.karmabox {
+    height: 800px;
+    background-image:url("../first-background.jpg");
+}
+
+
+
+.karmabox h1,
+.karmabox h3,
+.karmabox .boton
+ {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.karmatext {
+    padding-top: 70px;
+}
+
+.content {
+    background-color: salmon;
+}
+
+.flex-container{
+    position: fixed;
+}
+
+
+
+
+
+
+
 
 /**
  * Add your custom styles below
